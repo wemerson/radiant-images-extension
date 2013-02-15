@@ -88,14 +88,14 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<radiant>, [">= 0.9.1"])
-      s.add_runtime_dependency(%q<paperclip>, ["~> 2.3.5"])
+      s.add_runtime_dependency(%q<paperclip>, ["~> 2.7.5"])
       s.add_runtime_dependency(%q<aws-s3>, [">= 0.6.2"])
       s.add_runtime_dependency(%q<acts_as_list>, [">= 0.1.2"])
       s.add_development_dependency(%q<rspec>, [">= 1.3.0"])
       s.add_development_dependency(%q<rr>, [">= 1.0.0"])
     else
       s.add_dependency(%q<radiant>, [">= 0.9.1"])
-      s.add_dependency(%q<paperclip>, ["~> 2.3.5"])
+      s.add_dependency(%q<paperclip>, ["~> 2.7.5"])
       s.add_dependency(%q<aws-s3>, [">= 0.6.2"])
       s.add_dependency(%q<acts_as_list>, [">= 0.1.2"])
       s.add_dependency(%q<rspec>, [">= 1.3.0"])
@@ -103,7 +103,7 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<radiant>, [">= 0.9.1"])
-    s.add_dependency(%q<paperclip>, ["~> 2.3.5"])
+    s.add_dependency(%q<paperclip>, ["~> 2.7.5"])
     s.add_dependency(%q<aws-s3>, [">= 0.6.2"])
     s.add_dependency(%q<acts_as_list>, [">= 0.1.2"])
     s.add_dependency(%q<rspec>, [">= 1.3.0"])
